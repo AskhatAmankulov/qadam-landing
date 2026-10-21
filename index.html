@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Qadam Academy — программирование для школьников в Астане</title>
+  <meta name="description" content="Курс Python и веб-разработки для школьников 12–17 лет. Онлайн и офлайн в Астане. Первое занятие — бесплатно.">
+
+  <link rel="alternate" hreflang="ru" href="/ru">
+  <link rel="alternate" hreflang="kk" href="/kk">
+  <link rel="alternate" hreflang="en" href="/en">
+  <link rel="alternate" hreflang="x-default" href="/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Qadam Academy — программирование для школьников">
+  <meta property="og:description" content="Python и веб-разработка для 12–17 лет. Первое занятие бесплатно.">
+  <meta property="og:image" content="/assets/og.svg">
+
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#top" class="logo"><span class="logo__mark">Q</span>Qadam Academy</a>
+      <nav class="nav">
+        <a href="#program" data-i18n="nav.program">Программа</a>
+        <a href="#features" data-i18n="nav.features">Преимущества</a>
+        <a href="#faq" data-i18n="nav.faq">Вопросы</a>
+      </nav>
+      <div class="header__actions">
+        <div class="lang" role="group" aria-label="Language">
+          <button type="button" data-lang="kk">ҚАЗ</button>
+          <button type="button" data-lang="ru">РУС</button>
+          <button type="button" data-lang="en">ENG</button>
+        </div>
+        <a href="#form" class="btn btn--small" data-i18n="nav.cta">Записаться</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <span class="badge" data-i18n="hero.badge">Набор на ноябрь открыт</span>
+          <h1 data-i18n="hero.title">Первый шаг в IT — с реальными проектами</h1>
+          <p class="lead" data-i18n="hero.subtitle">Курс Python и веб-разработки для школьников 12–17 лет. Онлайн и офлайн в Астане. Первое занятие — бесплатно.</p>
+          <div class="hero__buttons">
+            <a href="#form" class="btn" data-i18n="hero.cta">Записаться на пробный урок</a>
+            <a href="#program" class="btn btn--ghost" data-i18n="hero.secondary">Программа курса</a>
+          </div>
+        </div>
+        <div class="hero__card" aria-hidden="true">
+          <div class="code">
+            <div class="code__bar"><i></i><i></i><i></i></div>
+<pre><span class="k">def</span> <span class="f">hello</span>(name):
+    <span class="k">return</span> <span class="s">f"Сәлем, {name}!"</span>
+
+<span class="f">print</span>(hello(<span class="s">"Астана"</span>))
+<span class="c"># Сәлем, Астана!</span></pre>
+          </div>
+        </div>
+      </div>
+      <div class="container stats">
+        <div class="stat"><b>4</b><span data-i18n="stats.months">месяца обучения</span></div>
+        <div class="stat"><b>12–17</b><span data-i18n="stats.age">лет — возраст учеников</span></div>
+        <div class="stat"><b>8</b><span data-i18n="stats.group">учеников в группе, не больше</span></div>
+      </div>
+    </section>
+
+    <section id="program" class="section">
+      <div class="container">
+        <h2 data-i18n="program.title">Программа курса</h2>
+        <p class="section__sub" data-i18n="program.subtitle">4 модуля — от первой строки кода до собственного сайта</p>
+        <div class="grid grid--4">
+          <article class="card"><span class="card__num">01</span><h3 data-i18n="program.m1.title">Основы Python</h3><p data-i18n="program.m1.text">Переменные, условия, циклы. Пишем первые игры и боты.</p></article>
+          <article class="card"><span class="card__num">02</span><h3 data-i18n="program.m2.title">Алгоритмы и логика</h3><p data-i18n="program.m2.text">Учимся разбивать задачу на шаги и решать олимпиадные задачи.</p></article>
+          <article class="card"><span class="card__num">03</span><h3 data-i18n="program.m3.title">Веб-разработка</h3><p data-i18n="program.m3.text">HTML, CSS и JavaScript: верстаем адаптивные страницы.</p></article>
+          <article class="card"><span class="card__num">04</span><h3 data-i18n="program.m4.title">Финальный проект</h3><p data-i18n="program.m4.text">Собственный сайт или Telegram-бот и защита перед родителями.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section section--alt">
+      <div class="container">
+        <h2 data-i18n="features.title">Почему выбирают нас</h2>
+        <div class="grid grid--2">
+          <div class="feature"><div class="feature__icon">⚡</div><div><h3 data-i18n="features.f1.title">Практика с первого урока</h3><p data-i18n="features.f1.text">80% времени — написание кода, а не лекции.</p></div></div>
+          <div class="feature"><div class="feature__icon">🌐</div><div><h3 data-i18n="features.f2.title">Обучение на трёх языках</h3><p data-i18n="features.f2.text">Группы на казахском, русском и английском.</p></div></div>
+          <div class="feature"><div class="feature__icon">👩‍💻</div><div><h3 data-i18n="features.f3.title">Опытные менторы</h3><p data-i18n="features.f3.text">Практикующие разработчики из IT-компаний Астаны.</p></div></div>
+          <div class="feature"><div class="feature__icon">📊</div><div><h3 data-i18n="features.f4.title">Отчёты для родителей</h3><p data-i18n="features.f4.text">Каждый месяц — прогресс ученика и рекомендации.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section">
+      <div class="container container--narrow">
+        <h2 data-i18n="faq.title">Частые вопросы</h2>
+        <details><summary data-i18n="faq.q1">Нужен ли опыт программирования?</summary><p data-i18n="faq.a1">Нет, курс рассчитан на новичков. Достаточно уметь пользоваться компьютером.</p></details>
+        <details><summary data-i18n="faq.q2">Какой нужен компьютер?</summary><p data-i18n="faq.a2">Любой ноутбук или ПК с доступом в интернет. На офлайн-занятиях компьютеры предоставляем.</p></details>
+        <details><summary data-i18n="faq.q3">Как проходит пробный урок?</summary><p data-i18n="faq.a3">60 минут: знакомство, мини-проект и рекомендации по группе.</p></details>
+        <details><summary data-i18n="faq.q4">Выдаёте ли сертификат?</summary><p data-i18n="faq.a4">Да, после защиты финального проекта ученик получает сертификат.</p></details>
+      </div>
+    </section>
+
+    <section id="form" class="section section--cta">
+      <div class="container container--narrow">
+        <div class="form-card">
+          <h2 data-i18n="form.title">Запишитесь на бесплатный пробный урок</h2>
+          <p class="section__sub" data-i18n="form.subtitle">Оставьте заявку — мы перезвоним в течение 15 минут в рабочее время.</p>
+          <form id="lead-form" novalidate>
+            <label class="field">
+              <span data-i18n="form.name">Имя родителя</span>
+              <input name="name" type="text" autocomplete="name" required maxlength="80">
+              <small class="field__error" data-i18n="form.errName">Введите имя</small>
+            </label>
+            <label class="field">
+              <span data-i18n="form.phone">Телефон</span>
+              <input name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="+7 7__ ___ __ __" required>
+              <small class="field__error" data-i18n="form.errPhone">Введите номер в формате +7 7XX XXX XX XX</small>
+            </label>
+            <div class="row">
+              <label class="field">
+                <span data-i18n="form.age">Возраст ребёнка</span>
+                <select name="age"><option>12–13</option><option>14–15</option><option>16–17</option></select>
+              </label>
+              <label class="field">
+                <span data-i18n="form.format">Формат</span>
+                <select name="format">
+                  <option value="online" data-i18n="form.online">Онлайн</option>
+                  <option value="offline" data-i18n="form.offline">Офлайн в Астане</option>
+                </select>
+              </label>
+            </div>
+            <!-- honeypot: боты заполняют, люди не видят -->
+            <input class="hp" name="website" type="text" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <button type="submit" class="btn btn--block" data-i18n="form.submit">Отправить заявку</button>
+            <p class="form__status" role="status" aria-live="polite"></p>
+            <p class="form__consent" data-i18n="form.consent">Нажимая кнопку, вы соглашаетесь на обработку персональных данных.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© 2026 Qadam Academy</span>
+      <span data-i18n="footer.note">Демо-проект</span>
+    </div>
+  </footer>
+
+  <script src="/assets/i18n.js"></script>
+  <script src="/assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/(ru|kk|en)", "destination": "/index.html" }
+  ]
+}
